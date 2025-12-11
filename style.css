@@ -1,0 +1,23 @@
+.container {
+    width: 360px;
+    margin: auto;
+    padding: 61px;
+    font-family: arial;
+}
+h1.titleBar {
+    font-family: arial black;
+    color: #333;
+    font-size: 30px;
+}
+
+table thead tr th {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tbody tr td {
+    padding: 15px;
+}
