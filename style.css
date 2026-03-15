@@ -10,14 +10,37 @@ h1.titleBar {
     font-size: 30px;
 }
 
-table thead tr th {
-    padding: 15px;
+table  th {
+    padding: 11px 37px;
 }
 
 table {
     border-collapse: collapse;
 }
 
-table tbody tr td {
+table td {
     padding: 15px;
+}
+
+button.btn-edit {
+    background: red;
+    border: none;
+    size: 25px;
+    color: white;
+}
+
+button.btn-delete {
+    background: #6400ff;
+    border: none;
+    size: 25px;
+    color: white;
+}
+
+table td input {
+    padding: 15px;
+    border: none;
+    text-align: left;
+}
+table td button {
+    cursor:pointer;
 }

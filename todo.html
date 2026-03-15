@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Todo App</title>
+
+<style>
+
+/* body{
+font-family: Arial;
+background:#f4f4f4;
+}
+
+.container{
+width:600px;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:50px;
+border-radius:10px;
+}
+
+input{
+padding:8px;
+margin:5px;
+}
+
+button{
+padding:6px 10px;
+cursor:pointer;
+}
+
+.completed{
+text-decoration: line-through;
+color: gray;
+} */
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Todo App</h2>
+
+<input id="title" placeholder="Title">
+<input id="description" placeholder="Description">
+
+<button id="add-btn">Add Todo</button>
+
+<br><br>
+
+<input id="search" placeholder="Search todo...">
+
+<br><br>
+
+<table border="1" width="100%">
+
+<thead>
+<tr>
+<th>#</th>
+<th>Title</th>
+<th>Description</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="todo-table-body"></tbody>
+
+</table>
+
+<p id="emptyMsg"></p>
+
+</div>
+
+<script src="todo.js"></script>
+
+</body>
+</html>

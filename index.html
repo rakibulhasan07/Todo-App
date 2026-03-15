@@ -19,21 +19,30 @@
                     <th>Actions</th>
                 </tr>
             </thead>
-
+                <tfoot>
+                    <tr>
+                        <td><input type="text" id="title" placeholder="Enter todo title">  </td>
+                        <td colspan="2"><input type="text" id="description" placeholder="Enter todo description"></td>
+                        <td><button class="btn-add" id="add-btn">Add Todo</button></td>
+                    </tr>
+                </tfoot>
             <tbody id="todo-table-body">
-                <!-- Todo items will be dynamically inserted here -->
+                <!-- Todo items will be dynamically inserted here
                 <tr>
                     <td>1</td>
                     <td>Sample Todo</td>
                     <td>This is a sample todo item.</td>
                     <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button class="btn-edit">Edit</button>
+                        <button class="btn-delete">Delete</button>
                     </td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
     </div>
     
+
+   <script src="app.js"></script>
+        <!-- // Your JavaScript code will go here -->
 </body>
 </html>
