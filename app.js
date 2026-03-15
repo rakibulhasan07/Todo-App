@@ -25,11 +25,37 @@ if(!localStorage.getItem("todo")){
     localStorage.setItem("todo", JSON.stringify(mkArray));
 }
 
+
+
+
+
 // let cItem = JSON.parse(localStorage.getItem("todo"));  // localStorage থেকে "todo" item কে JSON string থেকে JavaScript object এ convert করা
 // if(cItem.length === 0){
 //     document.querySelector('table thead').setAttribute('style', 'display: none;')  // যদি localStorage এ data থাকে তাহলে table head hide করা
 //     document.querySelector('#emptyMsg').innerHTML = "Your todo list is empty. Please add some todos."  // যদি localStorage এ data না থাকে তাহলে empty message show করা
 // } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const loopTodos = () => {
 
     //Empty table first

@@ -1,13 +1,23 @@
+body {
+    margin: auto;
+    text-align: center;
+    background: #eeeeee;
+}
+
+
 .container {
-    width: 360px;
+    width: 700px;
     margin: auto;
     padding: 61px;
     font-family: arial;
+    background: #ff9b00;
+    box-shadow: #0000003d -6px 2px 15px 1px;
 }
 h1.titleBar {
     font-family: arial black;
     color: #333;
     font-size: 30px;
+    text-align: center;
 }
 
 table  th {
@@ -16,6 +26,7 @@ table  th {
 
 table {
     border-collapse: collapse;
+    margin: auto;
 }
 
 table td {
@@ -40,6 +51,7 @@ table td input {
     padding: 15px;
     border: none;
     text-align: left;
+    color: #a9a9a9;
 }
 table td button {
     cursor:pointer;
